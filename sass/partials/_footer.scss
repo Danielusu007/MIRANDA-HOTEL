@@ -1,0 +1,188 @@
+.contenedor_ancho_pagina{
+
+
+}
+footer{
+    position: relative;
+    bottom:207px;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+
+    .contenedor_footer_imagenes{
+        display:flex;
+        width: 100vw;
+        
+        .footer_imagenes{
+            flex-grow: 1;
+            height: 176px;
+            background: #E5E5E5 0% 0% no-repeat padding-box;
+            opacity: 1;
+                
+        }          
+    }
+////////////////////////////////////
+
+    .contenedor_footer{        
+        
+        height: 633px;
+        width: 100vw;
+        background: #222222 url("../assets/Rectángulo.png") no-repeat center/cover;
+        display:flex;   
+        justify-content: center;
+   
+
+        section{
+            height:633px;
+            display:flex;           
+            justify-content: space-between;
+            align-items: center;
+            
+            .ajuste{
+                
+             width: 100vw;
+            display:flex;           
+            justify-content: space-between;       
+            margin-top: 50px;    
+            }
+///
+          .primer_contenedor{
+               color: #BABABA;
+                width: 282px;
+                height: 353px;
+                display:flex;
+                align-items:center;
+                flex-direction: column;
+
+                .hotel_icono{
+                    display:flex;                 
+                    width: 243px;
+                    height: 80px;
+                    align-items:center;
+                    margin-bottom:57px ;
+                    
+                    .h_fondo{
+                        display:flex;
+                        width: 120px;
+                        height: 80px;
+                        background: #BEAD8E 0% 0% no-repeat padding-box;
+                        box-shadow: 0px 14px 24px #8B8B8B1A;
+                        opacity: 1;
+                        align-items:center;
+                        justify-content:center;  
+                    
+                        p{
+                            font-size: 40px;
+                            color: #FFFFFF;
+                            text-align: center;
+                            letter-spacing: 0px;                       
+                            opacity: 1;                     
+                        }                
+                    }
+                .hotel_miranda{
+                    color: #FFFFFF;
+                    font-size: 26px;
+                    margin-left:28px ;
+                    align-items:left;                       
+                }  
+            }
+             .p_tamaño{
+                margin-left: 15px;
+                margin-bottom: 65px;
+             }   
+             .spans_iconos{
+                color: #FFFFFF;      
+                display:flex;
+                width: 282px;
+                justify-content: space-evenly;                
+             }
+
+          }  
+
+        .segundo_contenedor{
+            margin-left:70px;
+            margin-top:19px;
+
+            h1{
+                font-size: 24px;
+                margin-bottom:50px;
+                font-family: 'Old Standard TT';
+                color: var(--unnamed-color-ffffff);
+                text-align: left;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+            }
+            li{
+                color: #BABABA;
+                margin-bottom: 18px;
+                margin-left:15px;
+            }
+        }
+         .tercero_contenedor{
+            margin-left:30px;
+            margin-top:98px;
+
+            li{
+                color: #BABABA;
+                margin-bottom: 18px;
+            }
+        }
+         .cuarto_contenedor{
+            margin-left:70px;
+            margin-top:22px;
+            color: #BABABA;
+
+            h1{
+                font-size: 20px;
+                margin-bottom:50px;
+                font-family: 'Old Standard TT';
+                color: var(--unnamed-color-ffffff);
+                text-align: left;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+            }
+            p{
+                font-size: 14px;
+            }
+            .cont{
+                display:flex;
+                margin-bottom: 61px;
+
+                img{
+                    margin-right:19px;
+                }
+
+            }
+        }
+
+    }
+  
+}
+
+}
+     .nav_footer{
+            width: 100vw;
+            height: 80px;
+            display:flex;
+            background-color: black;
+            opacity: 1; 
+            justify-content: center;
+        }
+        .ancho_footer{
+            width: 1170px;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p{
+                color: var(--unnamed-color-ffffff);
+                text-align: center;
+                letter-spacing: -0.48px;
+                color: #FFFFFF;
+                opacity: 1;
+            }
+        }
