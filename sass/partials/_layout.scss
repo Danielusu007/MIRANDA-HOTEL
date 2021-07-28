@@ -2,9 +2,15 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+      max-width:100%;
 }
 body{
    
     height: 100vh;
-    width: 100vw;
+    
+}
+.contenedor_ancho_pagina{
+    width:1170px;
+    padding-left: 10px;
+   
 }

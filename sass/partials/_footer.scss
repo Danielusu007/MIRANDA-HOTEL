@@ -12,15 +12,18 @@ footer{
     align-items: center;
 
     .contenedor_footer_imagenes{
-        display:flex;
-        width: 100vw;
+     height: 176px;
+    display: flex;
+    background-color:   #bababaef;
+ 
+ 
+ justify-content: space-between;
         
         .footer_imagenes{
-            flex-grow: 1;
-            height: 176px;
-            background: #E5E5E5 0% 0% no-repeat padding-box;
-            opacity: 1;
-                
+        
+            object-fit: cover;
+            max-width:16%;
+     
         }          
     }
 ////////////////////////////////////
